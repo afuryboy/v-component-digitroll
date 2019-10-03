@@ -1,0 +1,47 @@
+{
+  "name": "v-component-digitroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/v-component-digitroll.js",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.dev.js",
+    "dev:cdn": "webpack-dev-server --env.cdn=true --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afuryboy/v-component-digitroll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afuryboy/v-component-digitroll/issues"
+  },
+  "homepage": "https://github.com/afuryboy/v-component-digitroll#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "css-hot-loader": "^1.4.4",
+    "css-loader": "^3.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "is-port-reachable": "^2.0.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "postcss": "^7.0.18",
+    "postcss-loader": "^3.0.0",
+    "progress-bar-webpack-plugin": "^1.12.1",
+    "sass-loader": "^8.0.0",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}

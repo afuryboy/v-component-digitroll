@@ -1,0 +1,4 @@
+.digitroll{position:absolute;left:50%;top:50%;margin:auto;display:flex}.num{width:20px;height:30px;overflow:hidden}.num div{text-align:center;width:20px;height:30px;line-height:30px;color:blue}
+
+body{color:red}
+
