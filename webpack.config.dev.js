@@ -21,8 +21,6 @@ async function checkPort() {
 }
 module.exports = (env,argv) => {
   // return config
-  console.log(env);
-  console.log(argv);
   return new Promise((resolve, reject) => {
     checkPort().then(res=>{
       let devConfig = {
